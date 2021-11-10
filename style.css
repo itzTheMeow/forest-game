@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Manaspace";
+  src: url("manaspc.ttf");
+}
+
+ol {
+  font-size: 17px;
+  font-weight: bold;
+}
+txt {
+  font-size: 20px;
+}
+key {
+  font-weight: bold;
+  font-size: 110%;
+  cursor: hand;
+}
+html {
+  font-family: "Manaspace";
+  overflow: hidden;
+}
+#topbar {
+  background: Blue;
+  color: White;
+  width: vw;
+  padding: 10px;
+  font-size: 25px;
+}
+step {
+  color: LightGray;
+}
+#barwidth {
+  display: inline;
+  padding-left: 73%;
+}
+
+[noselect] {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
